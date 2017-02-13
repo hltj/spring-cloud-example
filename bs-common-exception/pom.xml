@@ -4,19 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>cloud-user-api</artifactId>
+    <artifactId>bs-common-exception</artifactId>
     <packaging>jar</packaging>
-    <name>cloud-user-api</name>
+    <name>bs-common-exception</name>
 
     <parent>
         <groupId>com.erdaoya</groupId>
         <artifactId>spring-cloud-example-parent</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-feign</artifactId>
-        </dependency>
-    </dependencies>
 </project>
